@@ -32,7 +32,6 @@ hamburger.addEventListener('click', function() {
     navMenu.classList.toggle('hidden');
 });
 
-
 // if click any area for close hamburger
 window.addEventListener('click', function(e) {
     if(e.target != hamburger && e.target != navMenu) {
